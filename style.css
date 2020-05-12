@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+ font-family: arial;color: #333;
+ background:#00cc66;
+
+}
+#head{
+	text-align: center;
+	font-size: 50px;
+	font-family: arial black;
+}
+#head h1 span{
+	color: orange;
+}
+#main{
+	width: 335px;
+	background:#2196f3bf;
+	padding:10px;
+	margin:15px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+#icon{
+	width: 70px;
+	font-size: 50px;
+	float: left;
+	margin-top: 20px;
+	text-align: center;
+	color: orange;
+}
+#content{
+ width: 250px;
+ float: right;
+}
+#content h2{
+	margin-bottom: 8px;
+	font-family: arial black;
+}
+#content,#icon{
+	display: inline-block;
+}
+div#allblock {
+    width: 1170px;
+    /* background: black; */
+    margin: auto;
+}
+#main:hover{
+	background: transparent;color: black; cursor: pointer;transform: scale(0.8);transition: all 1s;
+}
